@@ -18,7 +18,7 @@ df = pd.read_parquet('/tmp/social_network.parquet')
 
 # LAYOUT
 app.layout = html.Div([
-    html.H1('NoemiGCobos-Dashboard Social Networks', style={
+    html.H1('NoemiGonzalezCobos-Dashboard Social Networks', style={
             "text-align": "center", "margin-top": "24px", "margin-bottom": "48px"}),
     html.Div([
         html.Label('Datetime Range'),
@@ -107,7 +107,7 @@ app.layout = html.Div([
     Output('facebook-visit', 'children'),
     Output('instagram-visit', 'children'),
     Output('twitter-visit', 'children'),
-    Output('twitch_visit', 'children'),
+    Output('twitch-visit', 'children'),
     Output('total-visit-line', 'figure'),
     Output('total-visit-social-networks-line', 'figure'),
     Output('world-map', 'figure'),
